@@ -1,0 +1,6 @@
+framework module Pods_ScreenShieldDemo_ScreenShieldDemoUITests {
+  umbrella header "Pods-ScreenShieldDemo-ScreenShieldDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

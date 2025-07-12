@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		17BE5DBED21E895054D3A4D0 /* Pods_ScreenShieldDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D0036A80D5571D44979EB6 /* Pods_ScreenShieldDemo.framework */; };
+		413FF81B0F2AEFD48C50CFBD /* Pods_ScreenShieldDemo_ScreenShieldDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB5F7F951624358B3A89C9C /* Pods_ScreenShieldDemo_ScreenShieldDemoUITests.framework */; };
+		99EC1733CF48803727F5FB7C /* Pods_ScreenShieldDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D749D6DA6763A9106CBAFCD /* Pods_ScreenShieldDemoTests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		154149182E17D96400FDD89A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07D0036A80D5571D44979EB6 /* Pods_ScreenShieldDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenShieldDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		154149012E17D96100FDD89A /* ScreenShieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenShieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		154149172E17D96400FDD89A /* ScreenShieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenShieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		154149212E17D96400FDD89A /* ScreenShieldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenShieldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23537E3475C91B458C4A53A6 /* Pods-ScreenShieldDemo-ScreenShieldDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenShieldDemo-ScreenShieldDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-ScreenShieldDemo-ScreenShieldDemoUITests/Pods-ScreenShieldDemo-ScreenShieldDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		66385B6A669B4B61C20751E0 /* Pods-ScreenShieldDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenShieldDemo.debug.xcconfig"; path = "Target Support Files/Pods-ScreenShieldDemo/Pods-ScreenShieldDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6DB5F7F951624358B3A89C9C /* Pods_ScreenShieldDemo_ScreenShieldDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenShieldDemo_ScreenShieldDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE144CFE60FDC0E0ABBC27A /* Pods-ScreenShieldDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenShieldDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ScreenShieldDemoTests/Pods-ScreenShieldDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D749D6DA6763A9106CBAFCD /* Pods_ScreenShieldDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenShieldDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01E192DA1BD8EEDEA5D383B /* Pods-ScreenShieldDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenShieldDemo.release.xcconfig"; path = "Target Support Files/Pods-ScreenShieldDemo/Pods-ScreenShieldDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D052261FD20F30CC3B7D76AD /* Pods-ScreenShieldDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenShieldDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ScreenShieldDemoTests/Pods-ScreenShieldDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F222CE91AF30EDB653000A7F /* Pods-ScreenShieldDemo-ScreenShieldDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenShieldDemo-ScreenShieldDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-ScreenShieldDemo-ScreenShieldDemoUITests/Pods-ScreenShieldDemo-ScreenShieldDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17BE5DBED21E895054D3A4D0 /* Pods_ScreenShieldDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99EC1733CF48803727F5FB7C /* Pods_ScreenShieldDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413FF81B0F2AEFD48C50CFBD /* Pods_ScreenShieldDemo_ScreenShieldDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +110,8 @@
 				1541491A2E17D96400FDD89A /* ScreenShieldDemoTests */,
 				154149242E17D96400FDD89A /* ScreenShieldDemoUITests */,
 				154149022E17D96100FDD89A /* Products */,
+				D7B58B4E9AF32F00BEF5AE0C /* Pods */,
+				7F606395C6ABAEF4862CCE59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +125,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7F606395C6ABAEF4862CCE59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07D0036A80D5571D44979EB6 /* Pods_ScreenShieldDemo.framework */,
+				6DB5F7F951624358B3A89C9C /* Pods_ScreenShieldDemo_ScreenShieldDemoUITests.framework */,
+				9D749D6DA6763A9106CBAFCD /* Pods_ScreenShieldDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7B58B4E9AF32F00BEF5AE0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66385B6A669B4B61C20751E0 /* Pods-ScreenShieldDemo.debug.xcconfig */,
+				C01E192DA1BD8EEDEA5D383B /* Pods-ScreenShieldDemo.release.xcconfig */,
+				F222CE91AF30EDB653000A7F /* Pods-ScreenShieldDemo-ScreenShieldDemoUITests.debug.xcconfig */,
+				23537E3475C91B458C4A53A6 /* Pods-ScreenShieldDemo-ScreenShieldDemoUITests.release.xcconfig */,
+				8EE144CFE60FDC0E0ABBC27A /* Pods-ScreenShieldDemoTests.debug.xcconfig */,
+				D052261FD20F30CC3B7D76AD /* Pods-ScreenShieldDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1541492A2E17D96400FDD89A /* Build configuration list for PBXNativeTarget "ScreenShieldDemo" */;
 			buildPhases = (
+				DFD9308B3EAED0EAE3C75D9C /* [CP] Check Pods Manifest.lock */,
 				154148FD2E17D96100FDD89A /* Sources */,
 				154148FE2E17D96100FDD89A /* Frameworks */,
 				154148FF2E17D96100FDD89A /* Resources */,
+				77DC4A4D1FC3C2C3E8134664 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +169,6 @@
 				154149032E17D96100FDD89A /* ScreenShieldDemo */,
 			);
 			name = ScreenShieldDemo;
-			packageProductDependencies = (
-			);
 			productName = ScreenShieldDemo;
 			productReference = 154149012E17D96100FDD89A /* ScreenShieldDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1541492F2E17D96400FDD89A /* Build configuration list for PBXNativeTarget "ScreenShieldDemoTests" */;
 			buildPhases = (
+				D33E284785F61563CAB58081 /* [CP] Check Pods Manifest.lock */,
 				154149132E17D96400FDD89A /* Sources */,
 				154149142E17D96400FDD89A /* Frameworks */,
 				154149152E17D96400FDD89A /* Resources */,
@@ -147,8 +191,6 @@
 				1541491A2E17D96400FDD89A /* ScreenShieldDemoTests */,
 			);
 			name = ScreenShieldDemoTests;
-			packageProductDependencies = (
-			);
 			productName = ScreenShieldDemoTests;
 			productReference = 154149172E17D96400FDD89A /* ScreenShieldDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 154149322E17D96400FDD89A /* Build configuration list for PBXNativeTarget "ScreenShieldDemoUITests" */;
 			buildPhases = (
+				72A64190E005B19212D1F772 /* [CP] Check Pods Manifest.lock */,
 				1541491D2E17D96400FDD89A /* Sources */,
 				1541491E2E17D96400FDD89A /* Frameworks */,
 				1541491F2E17D96400FDD89A /* Resources */,
+				024904B9148F20B4C0EC0D4B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +214,6 @@
 				154149242E17D96400FDD89A /* ScreenShieldDemoUITests */,
 			);
 			name = ScreenShieldDemoUITests;
-			packageProductDependencies = (
-			);
 			productName = ScreenShieldDemoUITests;
 			productReference = 154149212E17D96400FDD89A /* ScreenShieldDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +286,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		024904B9148F20B4C0EC0D4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScreenShieldDemo-ScreenShieldDemoUITests/Pods-ScreenShieldDemo-ScreenShieldDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScreenShieldDemo-ScreenShieldDemoUITests/Pods-ScreenShieldDemo-ScreenShieldDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScreenShieldDemo-ScreenShieldDemoUITests/Pods-ScreenShieldDemo-ScreenShieldDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72A64190E005B19212D1F772 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScreenShieldDemo-ScreenShieldDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77DC4A4D1FC3C2C3E8134664 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScreenShieldDemo/Pods-ScreenShieldDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScreenShieldDemo/Pods-ScreenShieldDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScreenShieldDemo/Pods-ScreenShieldDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D33E284785F61563CAB58081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScreenShieldDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFD9308B3EAED0EAE3C75D9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScreenShieldDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		154148FD2E17D96100FDD89A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,6 +437,7 @@
 /* Begin XCBuildConfiguration section */
 		1541492B2E17D96400FDD89A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66385B6A669B4B61C20751E0 /* Pods-ScreenShieldDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +451,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +467,7 @@
 		};
 		1541492C2E17D96400FDD89A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01E192DA1BD8EEDEA5D383B /* Pods-ScreenShieldDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +481,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,7 +532,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -438,7 +595,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -459,6 +616,7 @@
 		};
 		154149302E17D96400FDD89A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EE144CFE60FDC0E0ABBC27A /* Pods-ScreenShieldDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +636,7 @@
 		};
 		154149312E17D96400FDD89A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D052261FD20F30CC3B7D76AD /* Pods-ScreenShieldDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -497,6 +656,7 @@
 		};
 		154149332E17D96400FDD89A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F222CE91AF30EDB653000A7F /* Pods-ScreenShieldDemo-ScreenShieldDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -514,6 +674,7 @@
 		};
 		154149342E17D96400FDD89A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23537E3475C91B458C4A53A6 /* Pods-ScreenShieldDemo-ScreenShieldDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
