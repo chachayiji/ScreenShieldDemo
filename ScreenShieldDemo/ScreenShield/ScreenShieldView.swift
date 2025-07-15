@@ -80,7 +80,18 @@ public class ScreenShieldView: UIView {
                 }
                 self.portiereView = portiereView
             }
+            
+            NotificationCenter.default.addObserver(self, selector: #selector(appWillLeave(_:)), name: UIApplication.willResignActiveNotification, object: nil)
+            NotificationCenter.default.addObserver(self, selector: #selector(appDidBack(_:)), name: UIApplication.didBecomeActiveNotification, object: nil)
+            
         }
+    }
+    
+    @objc private func appWillLeave(_ notify:Notification){
+          self.protectedView?.isHidden = true
+     }
+    @objc private func appDidBack(_ notify:Notification){
+            self.protectedView?.isHidden = false
     }
     
     required init?(coder: NSCoder) {

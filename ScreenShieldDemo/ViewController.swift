@@ -54,19 +54,20 @@ class ViewController: UIViewController {
             make.height.equalTo(50)
         }
         
-//        let button1 = UIButton(type: .custom)
-//        button1.frame = CGRectMake(20, 200, 200, 50)
-//        button1.setTitle("SwiftABC", for: .normal)
-//        button1.titleLabel?.textColor = .white
-//        button1.backgroundColor = .purple
-//        button1.addTarget(self, action: #selector(swiftUIAction(_:)), for: .touchUpInside)
-//        self.view.addSubview(button1)
+        let button1 = UIButton(type: .custom)
+        button1.frame = CGRectMake(20, 220, self.view.frame.size.width - 40, 50)
+        button1.setTitle("To Setting", for: .normal)
+        button1.titleLabel?.textColor = .white
+        button1.backgroundColor = .purple
+        button1.addTarget(self, action: #selector(swiftUIAction(_:)), for: .touchUpInside)
+        self.view.addSubview(button1)
     }
     
     @objc func swiftUIAction(_ sender: UIButton) {
     
-        let vc = UIHostingController(rootView: SwiftUIView())
-        self.present(vc, animated: true)
+        if let url = URL(string: UIApplication.openSettingsURLString){
+            UIApplication.shared.open(url)
+        }
     }
 
 }
